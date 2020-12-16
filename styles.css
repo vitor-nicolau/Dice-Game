@@ -1,41 +1,65 @@
 .container {
-  width: 70%;
-  margin: auto;
-  text-align: center;
+    width: 70%;
+    margin: auto;
+    text-align: center;
 }
 
 .dice {
-  text-align: center;
-  display: inline-block;
+    text-align: center;
+    display: inline-block;
 
 }
 
 body {
-  background-color: #393E46;
+    background-color: #393E46;
 }
 
 h1 {
-  margin: 30px;
-  font-family: 'Lobster', cursive;
-  text-shadow: 5px 0 #232931;
-  font-size: 8rem;
-  color: #4ECCA3;
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 8rem;
+    color: #4ECCA3;
 }
 
 p {
-  font-size: 2rem;
-  color: #4ECCA3;
-  font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
 }
 
 img {
-  width: 80%;
+    width: 80%;
 }
 
 footer {
-  margin-top: 5%;
-  color: #EEEEEE;
-  text-align: center;
-  font-family: 'Indie Flower', cursive;
+    margin-top: 5%;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
 
+}
+
+.wrapper {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn {
+    align-items: center;
+    background: #4ECCA3;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    padding: 15px 40px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover {
+    background: #fff;
+    transition: all 200ms ease-in-out;
+}
+
+.btn:focus {
+    outline: none;
 }
